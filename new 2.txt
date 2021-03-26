@@ -1,0 +1,6 @@
+RSA key-pair with modulus-length 216 bits
+$ openssl genrsa -out rsa_key
+openssl rsa -text -noout -in rsa_key
+
+
+openssl ecparam -name prime256v1 -genkey -noout -out key.pem

@@ -1,0 +1,47 @@
+Private-Key: (384 bit)
+priv:
+    9e:f5:d4:4b:7e:4f:40:e5:2a:e1:e2:0f:cc:6b:ea:
+    aa:94:2e:35:b7:c5:cc:e4:c9:96:8f:da:a7:6d:58:
+    f2:15:6a:33:f5:39:b7:2b:99:98:0d:cf:3a:a3:b1:
+    18:fe:e3
+pub:
+    04:1d:ec:04:4c:8c:35:24:91:d8:d4:aa:b5:42:6a:
+    22:f6:1a:14:1a:d1:e7:1c:19:07:41:02:52:11:dd:
+    52:7b:ca:dc:e8:0b:07:fd:dc:8d:28:e3:dd:7e:d8:
+    ef:d6:f0:f1:18:be:22:43:48:62:2d:6c:48:17:58:
+    66:2b:98:09:8a:11:1f:48:a4:7f:c3:27:90:26:6f:
+    04:d4:13:d0:6e:3d:25:c3:f3:e5:d2:d4:2a:c0:07:
+    72:f4:f3:a6:39:88:dd
+Field Type: prime-field
+Prime:
+    00:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
+    ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
+    ff:ff:fe:ff:ff:ff:ff:00:00:00:00:00:00:00:00:
+    ff:ff:ff:ff
+A:   
+    00:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
+    ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
+    ff:ff:fe:ff:ff:ff:ff:00:00:00:00:00:00:00:00:
+    ff:ff:ff:fc
+B:   
+    00:b3:31:2f:a7:e2:3e:e7:e4:98:8e:05:6b:e3:f8:
+    2d:19:18:1d:9c:6e:fe:81:41:12:03:14:08:8f:50:
+    13:87:5a:c6:56:39:8d:8a:2e:d1:9d:2a:85:c8:ed:
+    d3:ec:2a:ef
+Generator (uncompressed):
+    04:aa:87:ca:22:be:8b:05:37:8e:b1:c7:1e:f3:20:
+    ad:74:6e:1d:3b:62:8b:a7:9b:98:59:f7:41:e0:82:
+    54:2a:38:55:02:f2:5d:bf:55:29:6c:3a:54:5e:38:
+    72:76:0a:b7:36:17:de:4a:96:26:2c:6f:5d:9e:98:
+    bf:92:92:dc:29:f8:f4:1d:bd:28:9a:14:7c:e9:da:
+    31:13:b5:f0:b8:c0:0a:60:b1:ce:1d:7e:81:9d:7a:
+    43:1d:7c:90:ea:0e:5f
+Order: 
+    00:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
+    ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:c7:63:4d:81:f4:
+    37:2d:df:58:1a:0d:b2:48:b0:a7:7a:ec:ec:19:6a:
+    cc:c5:29:73
+Cofactor:  1 (0x1)
+Seed:
+    a3:35:92:6a:a3:19:a2:7a:1d:00:89:6a:67:73:a4:
+    82:7a:cd:ac:73

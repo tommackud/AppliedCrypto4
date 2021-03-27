@@ -7,7 +7,7 @@ currentParam=''
 
 
 def h2i(hexLines):
-    if (hexLines == ''):
+    if hexLines == '':
         return 0
     return int(hexLines.replace(' ','').replace(':',''), 16)
 
@@ -18,7 +18,7 @@ def splitPoint(hexLines):
     return int(gen[:gl//2],16), int(gen[gl//2:], 16)
 
 
-ecpoints=["Gener", "pub"]
+ecpoints = ["Gener", "pub"]
 
 for line in lines:
     if line[0].isalpha():
@@ -31,8 +31,12 @@ for line in lines:
         currentParam = line.strip().replace(':','')[:5]
         currentHex=''
     else:
-        currentHex+=line.strip()
+        currentHex += line.strip()
 # print(params)
 
 for key in params:
     print(key + ': ' + str(params[key]))
+
+print('d: ' + str(params['pub'][0]))
+print('Q: ' + str(params['pub'][1]))
+

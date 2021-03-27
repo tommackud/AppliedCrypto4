@@ -1,6 +1,7 @@
 from Crypto.PublicKey import RSA
 from Crypto import Random
 import ast
+from Crypto.Cipher import PKCS1_OAEP
 
 random_generator = Random.new().read
 key = RSA.generate(1024, random_generator)

@@ -1,7 +1,6 @@
 from Crypto.PublicKey import RSA
 from Crypto import Random
 import ast
-from Crypto.Cipher import PKCS1_OAEP
 
 random_generator = Random.new().read
 key = RSA.generate(1024, random_generator)
@@ -17,9 +16,18 @@ ec_pub_key_Q_unenc = 38082516598374742874180481269524393659692890370536236619655
 ec_encrypted_d = public_key.encrypt(ec_pub_key_d_unenc, 32)
 ec_encrypted_Q = public_key.encrypt(ec_pub_key_Q_unenc, 32)
 
+# encryptor = PKCS1_OAEP.new(public_key)
+# ec_encrypted_d = encryptor.encrypt(ec_pub_key_d_unenc)
+# ec_encrypted_Q = encryptor.encrypt(ec_pub_key_Q_unenc)
+
 # Ciphertext
 print('encrypted d:', ec_encrypted_d)
 print('encrypted Q:', ec_encrypted_Q)
+
+# decryptor = PKCS1_OAEP.new(key)
+#
+# ec_decrypted_d = decryptor.decrypt(ast.literal_eval(str(encrypted)))
+# ec_decrypted_Q = decryptor.decrypt(ast.literal_eval(str(encrypted)))
 
 ec_decrypted_d = key.decrypt(ast.literal_eval(str(ec_encrypted_d)))
 ec_decrypted_Q = key.decrypt(ast.literal_eval(str(ec_encrypted_Q)))
